@@ -1,5 +1,5 @@
 # Ignore Terraform local files
-
+#yes*.tfstate
 *.tfstate.backup
 *.tfplan
 .terraform/
