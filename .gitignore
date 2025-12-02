@@ -1,0 +1,14 @@
+# Ignore Terraform local files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+.terraform/
+.terraform.lock.hcl
+
+# Ignore SSH keys
+public
+public.pub
+
+# OS files
+*.log
+*.DS_Store
